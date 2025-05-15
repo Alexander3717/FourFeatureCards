@@ -1,0 +1,70 @@
+@use 'functions' as *;
+
+// colors
+$color-blue: #549ef2;
+$color-cyan: #44d3d2;
+$color-grey-400: #6a7178;
+$color-grey-500: #4d4f62;
+$color-orange: #fcae4a;
+$color-red: #ea5454;
+$color-white: #ffffff;
+
+// font sizes
+$font-size-text-preset-5: 0.8125rem;
+$font-size-text-preset-4: 0.9375rem;
+$font-size-text-preset-3: 1.25rem;
+$font-size-text-preset-1: 2.25rem;
+$font-size-text-preset-2: 2.25rem;
+
+// spacings
+$spacing-100: 0.5rem;
+$spacing-200: 1rem;
+$spacing-300: 1.5rem;
+$spacing-400: 2rem;
+$spacing-500: 2.5rem;
+
+// text presets
+@mixin text-preset-1 {
+    color: var(--color-grey-500, #4D4F62);
+    font-family: Poppins;
+    font-size: $font-size-text-preset-1;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: rem(0.25px);
+}
+@mixin text-preset-2 {
+    color: var(--color-grey-500, #4D4F62);
+    font-family: Poppins;
+    font-size: $font-size-text-preset-2;
+    font-style: normal;
+    font-weight: 275;
+    line-height: 140%;
+    letter-spacing: rem(0.25px);
+}
+@mixin text-preset-3 {
+    color: var(--color-grey-500, #4D4F62);
+    font-family: Poppins;
+    font-size: $font-size-text-preset-3;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 135%;
+}
+@mixin text-preset-4 {
+    color: var(--color-grey-500, #4D4F62);
+    font-family: Poppins;
+    font-size: $font-size-text-preset-4;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: rem(0.104px);
+}
+@mixin text-preset-5 {
+    color: var(--color-grey-500, #4D4F62);
+    font-family: Poppins;
+    font-size: $font-size-text-preset-5;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: rem(0.09px);
+}
