@@ -192,6 +192,9 @@ main {
   }
 }
 @media (min-width: 75rem) {
+  .featurecard {
+    width: 21.875rem;
+  }
   .featurecard:nth-child(1) {
     grid-column: 1;
     grid-row: 2/4;

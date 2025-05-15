@@ -134,6 +134,7 @@ main {
 @media (min-width: rem(1200px)) {
 
     .featurecard {
+        width: rem(350px);
 
         &:nth-child(1) {
             grid-column: 1;
