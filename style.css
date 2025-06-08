@@ -192,6 +192,9 @@ main {
   }
 }
 @media (min-width: 75rem) {
+  body {
+    padding: 0;
+  }
   .featurecard {
     width: 21.875rem;
   }

@@ -133,6 +133,10 @@ main {
 
 @media (min-width: rem(1200px)) {
 
+    body {
+        padding: 0;
+    }
+
     .featurecard {
         width: rem(350px);
 
